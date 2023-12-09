@@ -1,0 +1,35 @@
+body {
+  font-family: "Silkscreen", sans-serif;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-attachment: fixed;
+}
+
+.clockContainer {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.clock {
+  font-size: 20vh;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: yellowgreen;
+}
+
+.hidden {
+  display: none;
+}
