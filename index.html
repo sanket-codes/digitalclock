@@ -4,22 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Clock</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="red clockContainer">
+    <div class="clockContainer">
       <h1 class="clock">
-        <span id="hour">12</span><span>:</span><span id="min">10</span
-        ><span>:</span><span id="sec">30</span>
-        <span id="ap">AM</span>
+        <div class="time">
+          <span id="hour">12</span><span>:</span><span id="min">10</span
+          ><span>:</span><span id="sec">30</span> <span id="ap">AM</span>
+        </div>
+        <div class="day">
+          <span id="tday">FRI</span><span>-</span><span id="tdate">08</span
+          ><span>-</span><span id="tyear">2023</span>
+        </div>
       </h1>
     </div>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
