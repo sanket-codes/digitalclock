@@ -1,35 +1,27 @@
 body {
-  font-family: "Silkscreen", sans-serif;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  font-family: "Kalnia", serif;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   background-attachment: fixed;
 }
 
 .clockContainer {
   display: flex;
   justify-content: center;
-  margin: 5%;
+  margin: 7%;
+  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+  box-shadow: 0 0 50px 20px #9d48e0;
 }
 
-.clock {
-  font-size: 20vh;
+.time {
+  display: flex;
+  justify-content: center;
+  font-size: 8rem;
+  color: #fffeff;
 }
 
-.blue {
-  background-color: blue;
-}
-
-.red {
-  background-color: red;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.green {
-  background-color: yellowgreen;
-}
-
-.hidden {
-  display: none;
+.day {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  color: #fffeff;
 }
